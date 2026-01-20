@@ -1,0 +1,16 @@
+opencv-python==4.8.1.78
+numpy==1.24.3
+librosa==0.10.1
+soundfile==0.12.1
+
+# Ethereum Blockchain Integration
+web3==6.11.3
+eth-account==0.10.0
+eth-utils==2.3.1
+
+# Deep Learning (Optional - for advanced DNN features)
+# Uncomment if you want to use pre-trained models
+# tensorflow==2.15.0
+# keras==2.15.0
+# torch==2.1.0
+# facenet-pytorch==2.5.3

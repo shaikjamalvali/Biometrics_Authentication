@@ -1,0 +1,46 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2026-01-05 11:18:38.739670",
+        "data": {
+            "user_id": "genesis",
+            "biometric_type": "genesis",
+            "feature_hash": "0"
+        },
+        "previous_hash": "0",
+        "hash": "bbfe99f22640989a6ba346c80734fc11316b42efbb31c790dbe3c9909518effb"
+    },
+    {
+        "index": 1,
+        "timestamp": "2026-01-05 11:19:12.120698",
+        "data": {
+            "user_id": "us01",
+            "biometric_type": "face_dnn",
+            "feature_hash": "e0b968b44de18c92f106894777f6ac3e015c8e821bea3022dcf5b03f2dcc8d2d"
+        },
+        "previous_hash": "bbfe99f22640989a6ba346c80734fc11316b42efbb31c790dbe3c9909518effb",
+        "hash": "ea9743f3089cb18d2bee8710b06042222d444018d5414cf698e8004cb00a6b04"
+    },
+    {
+        "index": 2,
+        "timestamp": "2026-01-20 12:07:33.159862",
+        "data": {
+            "user_id": "jv01",
+            "biometric_type": "face_dnn",
+            "feature_hash": "edb8ca250f20a74ace35531f8827af06d964bf6b9601255586264bd8a07bfd5d"
+        },
+        "previous_hash": "ea9743f3089cb18d2bee8710b06042222d444018d5414cf698e8004cb00a6b04",
+        "hash": "9f583c2910ed6df3d8a985e5240e4a18aa696c945614e7a9d53a8aac6cb144d0"
+    },
+    {
+        "index": 3,
+        "timestamp": "2026-01-20 12:08:58.310458",
+        "data": {
+            "user_id": "jv02",
+            "biometric_type": "face_dnn",
+            "feature_hash": "338a122fdc6cbd679d36b6d81c264e5dad106697c125880344fb21a377809ed8"
+        },
+        "previous_hash": "9f583c2910ed6df3d8a985e5240e4a18aa696c945614e7a9d53a8aac6cb144d0",
+        "hash": "7b80908e33d6297fd8d75572535b7c1000b102e9e8e2d0fd3c8f4bc5254dc147"
+    }
+]

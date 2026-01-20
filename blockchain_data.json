@@ -1,0 +1,35 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2025-12-30 16:26:12.473886",
+        "data": {
+            "user_id": "genesis",
+            "biometric_type": "genesis",
+            "feature_hash": "0"
+        },
+        "previous_hash": "0",
+        "hash": "9511851d35ac191954a845c990d07f6a0404fb46b7fa6d9c3674458c9f336af7"
+    },
+    {
+        "index": 1,
+        "timestamp": "2025-12-30 16:27:16.996486",
+        "data": {
+            "user_id": "user001",
+            "biometric_type": "face",
+            "feature_hash": "df4bbda8b087346a85fc2c45383329a11477b0af506c40d95595bf8cbc67e348"
+        },
+        "previous_hash": "9511851d35ac191954a845c990d07f6a0404fb46b7fa6d9c3674458c9f336af7",
+        "hash": "24a79cda2f9360addba654acc131fa2affd5d17af460b2369fb5b1f36a6967e1"
+    },
+    {
+        "index": 2,
+        "timestamp": "2025-12-30 16:37:52.444250",
+        "data": {
+            "user_id": "user0001",
+            "biometric_type": "face",
+            "feature_hash": "f4bb297fe7ca6718d1ea115b1d1153166efe8e199b67d65c91dd45df3a1291ec"
+        },
+        "previous_hash": "24a79cda2f9360addba654acc131fa2affd5d17af460b2369fb5b1f36a6967e1",
+        "hash": "1c2fcdcf425858c47af1180eca64696686452f1d549a05b99948bb8f489f2cca"
+    }
+]

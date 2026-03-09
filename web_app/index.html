@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Multimodal Biometric System</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Multimodal Biometric System</h1>
+
+    <!-- ================= Registration ================= -->
+    <section class="card">
+        <h2>Registration</h2>
+
+        <input type="text" id="regUserId" placeholder="User ID" />
+
+        <label>Fingerprint</label>
+        <input type="file" id="regFingerprint" />
+
+        <label>Face</label>
+        <input type="file" id="regFace" />
+
+        <label>Iris</label>
+        <input type="file" id="regIris" />
+
+        <label>Voice</label>
+        <input type="file" id="regVoice" />
+
+        <button onclick="registerUser()">Register</button>
+
+        <p id="regStatus" class="status"></p>
+    </section>
+
+    <!-- ================= Authentication ================= -->
+    <section class="card">
+        <h2>Authentication</h2>
+
+        <label>Fingerprint</label>
+        <input type="file" id="authFingerprint" />
+
+        <label>Face</label>
+        <input type="file" id="authFace" />
+
+        <label>Iris</label>
+        <input type="file" id="authIris" />
+
+        <label>Voice</label>
+        <input type="file" id="authVoice" />
+
+        <button onclick="authenticateUser()">Authenticate</button>
+
+        <p id="authStatus" class="status"></p>
+    </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
